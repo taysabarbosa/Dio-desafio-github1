@@ -1,0 +1,123 @@
+# Alguns comando utilizados no GIT 
+
+## CRIAÇÃO
+
+#### Git clone 
+
+- Copiar um repósitorio 
+
+ex:  "git clone https//repositoriox.git "
+
+#### Git init 
+
+- Criar um novo repositorio 
+
+## MUDANÇA LOCAIS
+
+
+
+#### Git Status 
+
+- Arquivos alterados em seu repositório
+
+#### Git Diff
+
+- Mudanças em arquivos rastreados
+
+#### Git add 
+
+- Adicione todas as mudanças atuais para o próximo commit 
+
+#### Git Add. -p <file>
+
+- Adicione algumas mudanças em <file> para o proximo commit 
+
+#### Git Commit -a 
+
+- Confirma todas as alterações locais em arquivos rastreados
+
+#### Git commit 
+
+- Confirmar alterações previalmente preparados 
+
+#### Git commit --amend 
+
+- Mude o útimo commit 
+
+## HISTÓRICO
+
+#### Git Log 
+
+- Mostrar todos os commits, começando pelo mais novo
+
+#### Git log -p <file> 
+
+- Mostrar mudanças ao longo do tempo para um arquivo especifico 
+
+#### Git Blame <file>
+
+- Mostra quem alterou o que e quando em <file> 
+
+
+
+## BRANCHES 
+
+
+
+#### Git Branch -av 
+
+- Listar todos os ramos existentes
+
+#### Git checkout <branch> 
+
+- mudar ramo HEAD 
+
+#### Git checkout <new-branch> 
+
+- Crie uma nova filial com base 
+
+#### Git checkout-track<remote/branch> 
+
+- Crie uma nova filial com base 
+
+#### Git branch -d <brach> 
+
+- Deletar uma filial local  
+
+#### Git tag <tag-name> 
+
+- Marque o commit atual com uma tag
+
+## ATUALIZAR & PUBLICAR 
+
+#### Git remote - v 
+
+- Lista todos os controles remotos configurados atualmente
+
+#### Git remote show < remote> 
+
+- Mostrar informações sobre um controle remoto 
+
+#### Git remote add < shortname> <url> 
+
+- adicione um novo repositorio remoto denominado <remote> 
+
+#### Git fetch <remote> 
+
+- Baixe todas as alterações de <remote> mas não integre no head
+
+#### Git Pull <remote> <branch> 
+
+- Baixe as alterações e marque/ integre diretamente no HEAD
+
+#### Git Push <remote> <branch> 
+
+- Publique as alterações locais remotamente 
+
+#### Git Branch -dh <remote/branch>  
+
+- Exclua uma filial no controle remoto 
+
+#### Git push --tags
+
+- Publique suas tags 
